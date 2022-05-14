@@ -57,6 +57,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.6.2"],\
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:3080a07c31e9c3532af27cb913a71ee739cd553ce5e6191488667435711cd1662991f8f678d56959b38d08ebad5c09782b39cb7ba932bce1c208774fb1938c72#npm:18.1.0"],\
+            ["react-icons", "virtual:3080a07c31e9c3532af27cb913a71ee739cd553ce5e6191488667435711cd1662991f8f678d56959b38d08ebad5c09782b39cb7ba932bce1c208774fb1938c72#npm:4.3.1"],\
             ["react-query", "virtual:3080a07c31e9c3532af27cb913a71ee739cd553ce5e6191488667435711cd1662991f8f678d56959b38d08ebad5c09782b39cb7ba932bce1c208774fb1938c72#npm:3.39.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"],\
             ["vite", "virtual:3080a07c31e9c3532af27cb913a71ee739cd553ce5e6191488667435711cd1662991f8f678d56959b38d08ebad5c09782b39cb7ba932bce1c208774fb1938c72#npm:2.9.9"],\
@@ -3619,6 +3620,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.6.2"],\
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:3080a07c31e9c3532af27cb913a71ee739cd553ce5e6191488667435711cd1662991f8f678d56959b38d08ebad5c09782b39cb7ba932bce1c208774fb1938c72#npm:18.1.0"],\
+            ["react-icons", "virtual:3080a07c31e9c3532af27cb913a71ee739cd553ce5e6191488667435711cd1662991f8f678d56959b38d08ebad5c09782b39cb7ba932bce1c208774fb1938c72#npm:4.3.1"],\
             ["react-query", "virtual:3080a07c31e9c3532af27cb913a71ee739cd553ce5e6191488667435711cd1662991f8f678d56959b38d08ebad5c09782b39cb7ba932bce1c208774fb1938c72#npm:3.39.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"],\
             ["vite", "virtual:3080a07c31e9c3532af27cb913a71ee739cd553ce5e6191488667435711cd1662991f8f678d56959b38d08ebad5c09782b39cb7ba932bce1c208774fb1938c72#npm:2.9.9"],\
@@ -6210,6 +6212,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-clientside-effect", "virtual:68e32fb7f78ad4e307d88da8403c6b3736928865df311806ae8c4cc0348ae558566613dbba91dc33ccc15cff65815632dca7c947699fd67dcddd6fabef064e1f#npm:1.2.6"],\
             ["use-callback-ref", "virtual:68e32fb7f78ad4e307d88da8403c6b3736928865df311806ae8c4cc0348ae558566613dbba91dc33ccc15cff65815632dca7c947699fd67dcddd6fabef064e1f#npm:1.3.0"],\
             ["use-sidecar", "virtual:68e32fb7f78ad4e307d88da8403c6b3736928865df311806ae8c4cc0348ae558566613dbba91dc33ccc15cff65815632dca7c947699fd67dcddd6fabef064e1f#npm:1.1.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-icons", [\
+        ["npm:4.3.1", {\
+          "packageLocation": "./.yarn/cache/react-icons-npm-4.3.1-46cb955834-2cc608acdd.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "npm:4.3.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:3080a07c31e9c3532af27cb913a71ee739cd553ce5e6191488667435711cd1662991f8f678d56959b38d08ebad5c09782b39cb7ba932bce1c208774fb1938c72#npm:4.3.1", {\
+          "packageLocation": "./.yarn/__virtual__/react-icons-virtual-4546c40a10/0/cache/react-icons-npm-4.3.1-46cb955834-2cc608acdd.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "virtual:3080a07c31e9c3532af27cb913a71ee739cd553ce5e6191488667435711cd1662991f8f678d56959b38d08ebad5c09782b39cb7ba932bce1c208774fb1938c72#npm:4.3.1"],\
+            ["@types/react", "npm:18.0.9"],\
+            ["react", "npm:18.1.0"]\
           ],\
           "packagePeers": [\
             "@types/react",\
