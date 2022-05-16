@@ -35,7 +35,7 @@ const LinkItems: Array<LinkItemProps> = [
     { name: 'Settings', icon: FiSettings },
 ];
 
-const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
+const Sidebar = ({ onClose, ...rest }: SidebarProps) => {
     return (
         <Box
             transition="3s ease"
@@ -61,4 +61,4 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
     );
 };
 
-export { SidebarContent }
+export { Sidebar }

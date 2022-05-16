@@ -7,19 +7,15 @@ import {
     useDisclosure,
 } from '@chakra-ui/react';
 
-import { SidebarContent } from './SidebarContent';
+import { Sidebar } from './Sidebar';
 
-import { MobileNav } from "./MobileNav"
+import { Navbar } from "./Navbar"
 
-export default function SidebarWithHeader({
-    children,
-}: {
-    children: ReactNode;
-}) {
+const Layout = ({ children }: { children: ReactNode }) => {
     const { isOpen, onOpen, onClose } = useDisclosure();
     return (
         <Box minH="100vh" bg={useColorModeValue('gray.100', 'gray.900')}>
-            <SidebarContent
+            <Sidebar
                 onClose={() => onClose}
                 display={{ base: 'none', md: 'block' }}
             />
@@ -32,11 +28,10 @@ export default function SidebarWithHeader({
                 onOverlayClick={onClose}
                 size="full">
                 <DrawerContent>
-                    <SidebarContent onClose={onClose} />
+                    <Sidebar onClose={onClose} />
                 </DrawerContent>
             </Drawer>
-            {/* mobilenav */}
-            <MobileNav onOpen={onOpen} />
+            <Navbar onOpen={onOpen} />
             <Box ml={{ base: 0, md: 60 }} p="4">
                 {children}
             </Box>
@@ -44,7 +39,7 @@ export default function SidebarWithHeader({
     );
 }
 
-
+export { Layout }
 
 
 

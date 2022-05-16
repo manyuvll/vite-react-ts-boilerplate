@@ -21,10 +21,10 @@ import {
     FiChevronDown,
 } from 'react-icons/fi';
 
-interface MobileProps extends FlexProps {
+interface NavbarProps extends FlexProps {
     onOpen: () => void;
 }
-const MobileNav = ({ onOpen, ...rest }: MobileProps) => {
+const Navbar = ({ onOpen, ...rest }: NavbarProps) => {
     return (
         <Flex
             ml={{ base: 0, md: 60 }}
@@ -51,8 +51,7 @@ const MobileNav = ({ onOpen, ...rest }: MobileProps) => {
                 fontWeight="bold">
                 Logo
             </Text>
-
-            <HStack spacing={{ base: '0', md: '6' }}>
+            <HStack spacing={{ base: '1', md: '6' }}>
                 <IconButton
                     size="lg"
                     variant="ghost"
@@ -103,4 +102,4 @@ const MobileNav = ({ onOpen, ...rest }: MobileProps) => {
     );
 };
 
-export { MobileNav }
+export { Navbar }
